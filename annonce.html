@@ -61,7 +61,9 @@
             <h1>Déposer une annonce</h1>
             <h2>votre annonce</h2>
 
-            <label for="traitement.php">Catégorie</label>
+            <form action="traitement.php">
+            
+            <label>Catégorie</label>
             <select name="" id="">Choississez une catégorie>
             <option value="emplpoi">Emploi</option>
             <option value="Offres">offres d'emploi</option>
@@ -72,8 +74,12 @@
             <option value="">Véhicules5</option>
             </select>
 
+            <label for="#">Vous êtes un*</label>
+            <input type="radio" name="identity" id="particulier" value="particulier">Particulier
+            <input type="radio" name="identity" id="professionnel" value="professionnel">Professionnel
 
 
+        </form>
        </div>
 
 
