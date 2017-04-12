@@ -104,13 +104,44 @@
             <figure><img src="img/photosupp.png" alt="big picture">
             </figure>
                 </form>
+                <!-- end form1 -->
 
+            <!-- start  form2 -->
             <h2>Localisation</h2>
             <form action="traitement.php">
                 <label for="ville">Ville ou code postal*</label>
                 <input type="text" name="ville" id="ville">
 
+                <label for="villes">Adresse</label>
+                <input type="text" name="villes" id="villes" placeholder="voie ou numéro + voie">
+
+                <button type="button"> valider</button>
+
+                <p>Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce.
+                Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information ne sera conservée que le temps de la publication de votre annonce.</p>
+
+                <figure>
+                <img src="img/annoncemap.png" alt="annonce map">
+                </figure>
+
             </form>
+            <!-- end form2 -->
+
+            <!-- start form3 -->
+                <h2>Vos informations</h2>
+                <form action="traitement.php">
+                 <label for="pseudo">Pseudo*</label>
+                 <input type="text" name="pseudo" id="pseudo">
+
+                 <label for="email">Email*</label>
+                 <input type="email" name="email" id="email">
+
+                 <label for="tel">Téléphone*</label>
+                 <input type="tel" name="tel" id="tel">  
+
+                </form>
+
+
 
 
 
