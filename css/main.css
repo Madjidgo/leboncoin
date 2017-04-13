@@ -100,15 +100,20 @@ img{
 a{
     text-decoration: none;
 }
+
+
+/* display:none*/
+header nav,.headerbutton{
+    display: none;
+    /*end display none*/
+}
+
 .aside1{
     display: flex;
     background-color: #F56B2A;
     justify-content: flex-start;
     padding: 8px;
-    fl
-
-
-  
+    
    }
 
 .aside1 img{
@@ -133,7 +138,11 @@ a{
 
 
 
+/* start mediaqueries 768px*/
+@media (min-width: 768px){
 
+
+}
 
 
 
