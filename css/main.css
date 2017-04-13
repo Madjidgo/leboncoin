@@ -153,19 +153,40 @@ header nav,.headerbutton{
 
 /* start mediaqueries 1024px*/
 @media (min-width: 1024px) {
+    header{
+        background-color: #F56B2A;
+    }
+    
     .aside1 a{
         display: none;
     }
     header nav,.headerbutton{
     display: block;
     padding: .5em;
+
     }
     .divheader{
         display: flex;
+        justify-content: center;
     }
     
     .divheader nav ul {
         display: flex;
+    }
+     header nav li{
+        padding: 10px;
+     }
+    nav a{
+        color: white;
+    }
+
+    .headerbutton{
+        border-left: 1px solid #fff;
+        border-right: 1px solid  #fff;
+    }
+    .headerbutton i{
+        color:#fff;
+        border:none;
     }
 
 }
