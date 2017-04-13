@@ -100,6 +100,9 @@ img{
 a{
     text-decoration: none;
 }
+li{
+    list-style-type: none;
+}
 
 
 /* display:none*/
@@ -150,7 +153,21 @@ header nav,.headerbutton{
 
 /* start mediaqueries 1024px*/
 @media (min-width: 1024px) {
+    .aside1 a{
+        display: none;
+    }
+    header nav,.headerbutton{
+    display: block;
+    padding: .5em;
+    }
+    .divheader{
+        display: flex;
+    }
     
+    .divheader nav ul {
+        display: flex;
+    }
+
 }
 
 
