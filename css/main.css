@@ -106,7 +106,7 @@ li{
 
 
 /* display:none*/
-header nav,.headerbutton, .sidebar, .white , .black, .partenaires, .partenaire2 p{
+header nav,.headerbutton, .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure{
     display: none;
     /*end display none*/
 }
@@ -204,8 +204,12 @@ header{
 
 /*mediaqueries 800px*/
 @media (min-width: 800px){
-    section h4{
-        text-align: left;
+    .section1 figure{
+        display: block;
+    }
+
+    .container1{
+        display: flex;
     }
 }
 
@@ -217,7 +221,7 @@ header{
         background-color: #F56B2A;
     }
     
-    .aside1 a{
+    .aside1 a, .section1 figure{
         display: none;
     }
     header nav,.headerbutton{
@@ -225,7 +229,7 @@ header{
     padding: .5em;
 
     }
-    .sidebar{
+    .sidebar, .white , .black, .partenaires, .partenaire2 p{
         display: block;
     }
     .divheader{
