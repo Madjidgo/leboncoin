@@ -136,7 +136,16 @@ header nav,.headerbutton{
     margin-left: 3em;
 }
 
+  section h4 span{
+    color: #f56b2a;
+}
 
+   section h4{
+    text-align: center;
+font-size: 12px;
+margin-top: 21px;
+color: #1A1A1A;
+}
 
 
 
@@ -147,9 +156,21 @@ header nav,.headerbutton{
 .aside1 figure{
     width: 66%;
 }
+section h4 {
+    font-size: 13px;
+}
 }
 
 /*end mediaqueries 768px*/
+
+/*mediaqueries 800px*/
+@media (min-width: 800px){
+    section h4{
+        text-align: left;
+    }
+}
+
+
 
 /* start mediaqueries 1024px*/
 @media (min-width: 1024px) {
