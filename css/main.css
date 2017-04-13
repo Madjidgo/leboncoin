@@ -141,7 +141,16 @@ header nav,.headerbutton{
 /* start mediaqueries 768px*/
 @media (min-width: 768px){
 
+.aside1 figure{
+    width: 66%;
+}
+}
 
+/*end mediaqueries 768px*/
+
+/* start mediaqueries 1024px*/
+@media (min-width: 1024px) {
+    
 }
 
 
