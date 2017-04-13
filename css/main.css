@@ -106,9 +106,13 @@ li{
 
 
 /* display:none*/
-header nav,.headerbutton{
+header nav,.headerbutton, .sidebar{
     display: none;
     /*end display none*/
+}
+header{
+    background-color: #f56b2a;
+    /*position: fixed;*/
 }
 .container{
     display: flex;
@@ -120,7 +124,6 @@ header nav,.headerbutton{
 
 .aside1{
     display: flex;
-    background-color: #F56B2A;
     justify-content: flex-start;
     padding: 8px;
     
@@ -149,9 +152,9 @@ header nav,.headerbutton{
 
    .section1 h4{
     text-align: center;
-font-size: 12px;
-margin-top: 21px;
-color: #1A1A1A;
+    font-size: 12px;
+    margin-top: 21px;
+    color: #1A1A1A;
 }
 
 .section1 a{
@@ -221,6 +224,9 @@ color: #1A1A1A;
     display: block;
     padding: .5em;
 
+    }
+    .sidebar{
+        display: block;
     }
     .divheader{
         display: flex;
