@@ -202,10 +202,16 @@ header{
 
 /*end mediaqueries 768px*/
 
+
+
 /*mediaqueries 800px*/
 @media (min-width: 800px){
     .section1 figure{
         display: block;
+    }
+
+     #fighead{
+        display: none;
     }
 
     .container1{
@@ -215,13 +221,15 @@ header{
 
 
 
+
+
 /* start mediaqueries 1024px*/
 @media (min-width: 1024px) {
     header{
         background-color: #F56B2A;
     }
     
-    .aside1 a, .section1 figure{
+    .aside1 a, .section1 figure, #select{
         display: none;
     }
     header nav,.headerbutton{
@@ -229,8 +237,16 @@ header{
     padding: .5em;
 
     }
-    .sidebar, .white , .black, .partenaires, .partenaire2 p{
+    .sidebar, .white , .black, .partenaires, .partenaire2 p, #fighead{
         display: block;
+    }
+
+    .container{
+        display: flex;
+    }
+    #fighead{
+        width: 58%;
+        margin-left:110px; 
     }
     .divheader{
         display: flex;
