@@ -106,10 +106,15 @@ li{
 
 
 /* display:none*/
-header nav,.headerbutton, .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure{
+header nav,.headerbutton,  .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure{
     display: none;
     /*end display none*/
 }
+
+    #fighead1{
+    display: none;
+}
+
 header{
     background-color: #f56b2a;
     /*position: fixed;*/
@@ -198,6 +203,9 @@ header{
 .section1 h4 {
     font-size: 13px;
 }
+#fighead1{
+    display: block;
+}
 }
 
 /*end mediaqueries 768px*/
@@ -217,6 +225,11 @@ header{
     .container1{
         display: flex;
     }
+
+           #fighead1{
+    display: none;
+}
+  
 }
 
 
@@ -237,16 +250,34 @@ header{
     padding: .5em;
 
     }
+
+/*        #fighead1{
+    display: block;
+}*/
     .sidebar, .white , .black, .partenaires, .partenaire2 p, #fighead{
         display: block;
+    }
+    .container{
+        width: 60%;
+    }
+
+    .container1{
+        width: 70%;
+    }
+    .sidebar{
+        width: 30%;
+        text-align: right;
     }
 
     .container{
         display: flex;
+        flex-direction: row;
     }
     #fighead{
-        width: 58%;
-        margin-left:110px; 
+        
+        margin-left:48px;
+        width: 77%;
+
     }
     .divheader{
         display: flex;
