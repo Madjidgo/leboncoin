@@ -112,7 +112,7 @@ header nav,.headerbutton,  .sidebar, .white , .black, .partenaires, .partenaire2
 }
 
     #fighead1{
-    display: none;
+    height: 100px;
 }
 
 header{
@@ -189,6 +189,37 @@ header{
     color: #69c;
     font-size: 12px;
 }
+footer{
+
+    background-color: #474747;
+    color: #fff;
+}
+
+#pf{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.partenaires2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+
+.partenaires2 figure {
+    width: 30px;
+    height: 30px;
+
+}
+
+.reseausociaux{
+    display: flex;
+    align-self: flex-end;
+    
+}
 
 
 
@@ -205,6 +236,15 @@ header{
 }
 #fighead1{
     display: block;
+}
+
+#pf {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 200px;
+}
+#fighead1 img{
+    height: 260px;
 }
 }
 
@@ -229,6 +269,13 @@ header{
            #fighead1{
     display: none;
 }
+
+/*#pf{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 150px;
+
+}*/
   
 }
 
@@ -259,10 +306,11 @@ header{
     }
     .container{
         width: 60%;
+        margin-top: 1em;
     }
 
     .container1{
-        width: 70%;
+        width: 68%;
     }
     .sidebar{
         width: 30%;
