@@ -270,12 +270,11 @@ footer{
     display: none;
 }
 
-/*#pf{
+#pf {
     font-size: 12px;
     text-align: center;
-    margin-top: 150px;
-
-}*/
+    margin-top: 30px;
+}
   
 }
 
@@ -304,9 +303,9 @@ footer{
     .sidebar, .white , .black, .partenaires, .partenaire2 p, #fighead{
         display: block;
     }
-    .container{
+    .container,footer,#pf{
         width: 60%;
-        margin-top: 1em;
+        margin: 1em auto;
     }
 
     .container1{
@@ -355,6 +354,31 @@ footer{
     }
     .headerbutton:hover{
         background-color: #fff;
+    }
+
+    footer .white{
+        display: flex;
+        justify-content: space-around;
+        background-color: #F2F2F2;
+        color: #336699;
+
+    }
+
+    footer .black{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .black img {
+        width: 118.325px;
+        height:35px;
+    }
+    .black li  {
+        font-size: 15px;
+    }
+    footer span{
+        text-decoration: underline;
     }
 
 }
