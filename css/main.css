@@ -255,15 +255,25 @@ flex-wrap: wrap;
     border: 1px solid black;
     width: 100%;
     margin:  auto;
-    padding: 12px;
+    padding: 13px;
     border-radius: 5px;
 }
 
 label {
  margin: 10px;
  display:block;
- font-size: 13px;
+ font-size: 14px;
  }
+
+input{
+    padding: 1em;
+    width: 100%;
+   max-width: 300px;
+}
+
+.labelradio input, #cbox1, #cbox2{
+    width: 0;
+}
 
 
 
