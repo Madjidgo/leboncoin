@@ -240,6 +240,7 @@ h2{
     border:1px solid ;
     background-color: #666666;
     color: #fff;
+    width: 90%;
 }
 
 .container2 {
@@ -253,9 +254,9 @@ flex-wrap: wrap;
 
 #select{
     border: 1px solid #968f7e;
-    width: 100%;
+    width: 96%;
     margin:  auto;
-    padding: .6em;
+    padding: .5em;
     border-radius: 5px;
 }
 
@@ -266,15 +267,15 @@ label,figcaption {
  }
 
 input{
-    padding: .6em;
-    width: 100%;
-   max-width: 300px;
+    padding: .5em;
+    width: 89%;
+   max-width: 315px;
 }
 
 button{
- padding: .6em;
+ padding: .5em;
 border: 1px solid #968f7e;
-width: 95%;
+width: 97%;
 border-radius: 5px;
 margin-top: .5em;
 background-color: #F9B493;
@@ -302,10 +303,28 @@ textarea{
 #formbigfoto{
     width: 80%;
 }
-/*form{
-    border: 1px solid;
-    margin-top: 2em;
-}*/
+
+.formp{
+    background-color: #D9E6F7;
+    margin-top: 1em;
+    font-size: 13px;
+    width: 97%;
+    border-radius: 5px;
+
+}
+
+#buttonblue{
+    background-color: #4183D7;
+    margin-bottom: 1em;
+}
+.formp2{
+    font-weight: normal;
+    font-family: "OpenSansBold",sans-serif;
+    text-align: right;
+    font-size: 13px;
+}
+
+
 
 
 

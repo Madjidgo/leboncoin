@@ -139,9 +139,11 @@
                 <input type="text" name="villes" id="villes" placeholder="voie ou numéro + voie">
 
                 <button type="button"> valider</button>
-
+                
+                <div class="formp">
                 <p>Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce.
                 Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information ne sera conservée que le temps de la publication de votre annonce.</p>
+                </div>
 
                 <figure>
                 <img src="img/annoncemap.png" alt="annonce map">
@@ -154,7 +156,7 @@
                 <article>
                 <h2>Vos informations</h2>
                 </article>
-                
+
                 <form action="traitement.php">
                  <label for="pseudo">Pseudo*</label>
                  <input type="text" name="pseudo" id="pseudo">
@@ -168,14 +170,17 @@
                 </form>
 
               
-                <label>
-  <input type="checkbox" id="cbox1" value="checkbox1">
-  Masquer le numero de téléphone dans l'annonce.
-</label>
+          <label>
+                  <input type="checkbox" id="cbox1" value="checkbox1">
+                    Masquer le numero de téléphone dans l'annonce.
+                </label>
 
-<input type="checkbox" id="cbox2" value="checkbox1"><label for="cbox2">Je ne souhaite plus soliciter par des sociétés étrangères au site Leboncoin.
-</label>
+                <input type="checkbox" id="cbox2" value="checkbox1"><label for="cbox2">Je ne souhaite plus soliciter par des sociétés étrangères au site Leboncoin.
+          </label>
 
+
+              <p class="formp2"><strong>champs obligatoires*</strong></p>
+              <button id="buttonblue" type="button">valider</button>
        
        </div>
 
@@ -205,7 +210,7 @@
               
             </article>
 
-            <button> valider</button>
+            
 
            
        </footer>
