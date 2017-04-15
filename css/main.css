@@ -104,7 +104,7 @@ li{
     list-style-type: none;
 }
 
-
+/*star page index.html*/
 /* display:none*/
 header nav,.headerbutton,  .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure{
     display: none;
@@ -220,11 +220,11 @@ footer{
     align-self: flex-end;
     
 }
-
-/*page annonce.html*/
-
+/*end page index.html*/
 
 
+
+/* start page annonce.html*/
 h1{
     color: #98989B;
     border-bottom: 1px solid #98989B;
@@ -324,13 +324,13 @@ textarea{
     font-size: 13px;
 }
 
-
-
-
+/*end page contact.html 360px*/
 
 
 
 /* start mediaqueries 768px*/
+
+/*start page index.html 768px*/
 @media (min-width: 768px){
 
 .aside1 figure{
@@ -351,6 +351,12 @@ textarea{
 #fighead1 img{
     height: 260px;
 }
+/*end page index.html*/
+
+
+/*start page annonce.html*/
+
+
 }
 
 /*end mediaqueries 768px*/
