@@ -109,24 +109,28 @@
             <label for="annonces">Prix</label>
             <input type="text"  name="annonces" id="annonces">
 
-            <p><span>Photos:</span> Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
 
-            <figure>
-                <img src="img/photo2.png" alt="photo">
-                <img src="img/photo2.png" alt="photo">
-                <img src="img/photo2.png" alt="photo">
-            </figure>
+            
+            <figcaption><span>Photos:</span> Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</figcaption>
+
+              <figure class="formulairephotos">
+                <a href="#"><img src="img/photo2.png" alt="photo"></a>
+                <a href="#"><img src="img/photo2.png" alt="photo"></a>
+                <a href="#"><img src="img/photo2.png" alt="photo"></a>
+   
 
             <!-- <input type="file" name=""> -->
-
-            <figure>
-            <img src="img/photosupp.png" alt="big picture">
+              
+            <img id="formbigfoto" src="img/photosupp.png" alt="big picture">
             </figure>
                 </form>
                 <!-- end form1 -->
 
             <!-- start  form2 -->
+            <article>
             <h2>Localisation</h2>
+            </article>
+
             <form action="traitement.php">
                 <label for="ville">Ville ou code postal*</label>
                 <input type="text" name="ville" id="ville">
@@ -147,7 +151,10 @@
             <!-- end form2 -->
 
             <!-- start form3 -->
+                <article>
                 <h2>Vos informations</h2>
+                </article>
+                
                 <form action="traitement.php">
                  <label for="pseudo">Pseudo*</label>
                  <input type="text" name="pseudo" id="pseudo">
