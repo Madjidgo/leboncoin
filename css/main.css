@@ -223,6 +223,8 @@ footer{
 
 /*page annonce.html*/
 
+
+
 h1{
     color: #98989B;
     border-bottom: 1px solid #98989B;
@@ -239,6 +241,29 @@ h2{
     background-color: #666666;
     color: #fff;
 }
+
+.container2 {
+display: flex;
+flex-direction: column;
+
+margin: auto;
+width: 96%;
+flex-wrap: wrap;
+}
+
+#select{
+    border: 1px solid black;
+    width: 100%;
+    margin:  auto;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+label {
+ margin: 10px;
+ display:block;
+ font-size: 13px;
+ }
 
 
 

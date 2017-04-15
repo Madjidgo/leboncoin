@@ -60,7 +60,7 @@
           </div>
        </header>
        <!-- end header -->
-       <div class="container">
+       <div class="container2">
            
             <h1>Déposer une annonce</h1>
             
@@ -72,30 +72,36 @@
             </article>
 
             <label>Catégorie*</label>
-            <select name="select">Choississez une catégorie>
-            <option value="emploi">Emploi</option>
+            <select name="select" id="select">
+
+            <optgroup label ="emploi">
             <option value="Offres">offres d'emploi</option>
+            </optgroup>
+            
+            <optgroup label="Voitures">
             <option value="">Véhicules</option>
             <option value="">Véhicules2</option>
+           
             <option value="">Véhicules23</option>
             <option value="">Véhicules4</option>
             <option value="">Véhicules5</option>
+            </optgroup>
             </select>
 
             <label for="particulier">Vous êtes un*</label>
             <input type="radio" name="identity" id="particulier" value="particulier">Particulier
             <input type="radio" name="identity" id="professionnel" value="professionnel">Professionnel
 
-            <label for="radio">Type d'annonce</label>
+            <label for="radio">Type d'annonce*</label>
             <input type="radio" name="offres" value="particulier">particulier
-            <input type="radio" name="offres" value="demandes">Demandes
+            <input type="radio" name="offres" value="demandes">Demandes <br>
             
-            <label for="annonce1">Titre de l'annonce</label>
-            <input type="text"  name="annonce1" id="annonce1">
+            <label for="annonce1">Titre de l'annonce*</label>
+            <input type="text"  name="annonce1" id="annonce1" required="required">
 
             <label for="annonce">Texte de l'annonce</label>
             <textarea name="textarea"
-            rows="10" cols="50">
+            rows="15" cols="45">
             </textarea>
 
             <label for="annonces">Prix</label>
