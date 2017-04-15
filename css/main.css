@@ -314,7 +314,13 @@ footer{
     .sidebar{
         width: 30%;
         text-align: right;
+
     }
+
+    .sidebar a{
+        color: #69c;
+    }
+
 
     .container{
         display: flex;
@@ -356,6 +362,17 @@ footer{
         background-color: #fff;
     }
 
+    /*start footer*/
+    footer ul{
+        width: 25%;
+    }
+
+
+    footer li , footer a{
+        font-size: 13px;
+        line-height: 2em;
+    }
+
     footer .white{
         display: flex;
         justify-content: space-around;
@@ -379,6 +396,14 @@ footer{
     }
     footer span{
         text-decoration: underline;
+        width: 100%;
+    }
+
+    .partenaires{
+        text-align: center;
+    }
+    .partenaires a{
+        color: #f2f2f2;
     }
 
 }
