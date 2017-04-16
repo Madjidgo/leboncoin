@@ -403,7 +403,8 @@
         width: 55%;
     }
     #buttonorange{
-        width: 17%
+        width: 32%;
+        margin: 0;
     }
     #ville{
         width: 90%;
@@ -412,16 +413,23 @@
         display: flex;
     }
     .formp {
-        width: 50%;
+        width: 99%;
+        line-height: 1em;
     }
     .formp11{
         display: flex;
         flex-direction: column;
     }
+    .formp111{
+        display: flex;
+    }
     
     .figannonce{
         width: 100%;
         margin-top: 2.1em;
+    }
+    #buttonblue{
+        width: 150px;
     }
 
     }
