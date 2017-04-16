@@ -303,7 +303,7 @@
         flex-wrap: wrap;
     }
     #formbigfoto{
-        width: 80%;
+        width: 100%;
     }
 
     .formp{
@@ -393,6 +393,13 @@
                #fighead1{
         display: none;
     }
+    
+
+    .formulairephotos img, #formbigfoto{
+        width: 168px;
+        height: 150px;
+        margin: 5px;
+    }
 
     #pf {
         font-size: 12px;
@@ -414,7 +421,7 @@
     }
     .formp {
         width: 99%;
-        line-height: 1em;
+        line-height: 2em;
     }
     .formp11{
         display: flex;
