@@ -65,7 +65,7 @@
             <h1>Déposer une annonce</h1>
             
 
-            <form action="traitement.php">
+            <form action="traitement.php" method="post">
 
             <article>
               <h2>votre annonce</h2>
@@ -130,25 +130,31 @@
             <article>
             <h2>Localisation</h2>
             </article>
-            
-            <div class="formp1">
-            <form action="traitement.php">
+          
+           
+                
+            <form action="traitement.php" method="post" >
+             <div class="formp1">
+              <div class="formp11">
                 <label for="ville">Ville ou code postal*</label>
                 <input type="text" name="ville" id="ville">
 
                 <label for="villes">Adresse</label>
                 <input type="text" name="villes" id="villes" placeholder="voie ou numéro + voie">
 
-                <button type="button"> valider</button>
+                <button type="button" id="buttonorange" > valider</button>
+              
                 
                 <div class="formp">
                 <p>Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce.
                 Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information ne sera conservée que le temps de la publication de votre annonce.</p>
                 </div>
+                </div>
 
-                <figure>
+                <figure class="figannonce">
                 <img src="img/annoncemap.png" alt="annonce map">
                 </figure>
+                
 
             </form>
             </div>
@@ -159,7 +165,7 @@
                 <h2>Vos informations</h2>
                 </article>
 
-                <form action="traitement.php">
+                <form action="traitement.php" method="post">
                  <label for="pseudo">Pseudo*</label>
                  <input type="text" name="pseudo" id="pseudo">
 
