@@ -458,7 +458,7 @@
         display: flex;
     }*/
     #select{
-        width: 60%;
+        width: 100%;
     }
     }
 
@@ -469,16 +469,13 @@
         header{
             background-color: #F56B2A;
         }
-        .aside1 a, .section1 figure{
+        .aside1 a, .section1 figure,#select{
             display: none;
         }
         header nav,.headerbutton{
         display: block;
         padding: .5em;
 
-        }
-        #select{
-            display: none;
         }
         .sidebar, .white , .black, .partenaires, .partenaire2 p, #fighead{
             display: block;
