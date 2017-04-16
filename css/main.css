@@ -460,7 +460,6 @@
     #select{
         width: 60%;
     }
-
     }
 
 
@@ -478,10 +477,9 @@
         padding: .5em;
 
         }
-
-    /*        #fighead1{
-        display: block;
-    }*/
+        #select{
+            display: none;
+        }
         .sidebar, .white , .black, .partenaires, .partenaire2 p, #fighead{
             display: block;
         }
