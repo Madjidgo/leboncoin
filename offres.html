@@ -66,7 +66,7 @@
        <div>
 
         <h3>Annonces Hauts de France</h3>
-
+        <div class="sidebarinv">
         <aside class="sidebaroffres">
           <section class="sectionoffres">
             <h5>Annonces à la Une</h5>
@@ -107,6 +107,59 @@
             </article>
           </section>
         </aside>
+
+          <nav class="navoffres">
+            <ul>
+              <span><li><a href="#">Toutes</a></li></span>
+              <li><a href="#">Particuliers</a></li>
+              <li><a href="#">Professionnels</a></li>
+            </ul>
+          </nav>
+
+          <select name="select" id="selectoffres">
+            <option value="value1">Trier par:Dates</option>
+            <option value="value2">Trier par:Prix</option>
+          </select>
+          </div>
+          
+          <div class="sectionoffres2">
+           <article id="artoffres">
+              <a href="#">
+              <figure>
+                <img src="img/offres2.jpg" alt="offres1">
+              </figure>
+              <div class="divoffres">
+              <p>cuisine brillante neuve</p>
+              <p><span>280€</span></p>
+              </div>
+              </a>
+            </article>
+
+             <article id="artoffres">
+              <a href="#">
+              <figure>
+                <img src="img/offres3.jpg" alt="offres1">
+              </figure>
+              <div class="divoffres">
+              <p>cuisine brillante neuve</p>
+              <p><span>280€</span></p>
+              </div>
+              </a>
+            </article>
+
+             <article id="artoffres">
+              <a href="#">
+              <figure>
+                <img src="img/offres1.jpg" alt="offres1">
+              </figure>
+              <div class="divoffres">
+              <p>cuisine brillante neuve</p>
+              <p><span>280€</span></p>
+              </div>
+              </a>
+            </article>
+            </div>
+
 
          <input type="text" id="text1" placeholder="Que rechechez-vous ?">
 
@@ -171,14 +224,13 @@
   </optgroup>
 </select>
 
-<label>
-  <input type="checkbox" id="cbox1" value="checkbox1">
-  Recherche dans le titre uniquement
-</label>
+<!-- <label  for="cbox11">Recherche dans le titre uniquement</label>
+  <input type="checkbox" id="cbox11" value="checkbox11">
+  
 
-<input type="checkbox" id="cbox2" value="checkbox1">2<label for="cbox2">
-  Annonces<span>urgentes</span>uniquement
-</label>
+<label for="cbox12">Annonces urgentes uniquement</label>
+  <input type="checkbox" id="cbox12" value="checkbox1"> -->
+
 
  <select class="select1">
   <optgroup label="Autour de moi">
@@ -186,7 +238,7 @@
     <option>Régions voisines</option>
     <option>Toutes la Franced</option>
     
-  </optgroup> 
+  </optgroup>
   <optgroup label="Départements">
     <option>Paris</option>
     <option>Roubaix</option>
@@ -196,9 +248,6 @@
 </select>
 
 <input type="text" id="text2" placeholder="Ville ou code postal">
-
-
-
 
        </div>
 

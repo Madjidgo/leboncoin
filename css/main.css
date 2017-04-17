@@ -92,7 +92,8 @@
         padding: 0;
     }
     body{
-        width: 100%;
+        width: 96%;
+        margin: auto;
     }
     img{
         width: 100%;
@@ -104,9 +105,10 @@
         list-style-type: none;
     }
 
+
     /*star page index.html*/
     /* display:none*/
-    header nav,.headerbutton,  .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure{
+    header nav,.headerbutton,  .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure,#text1,.select1,#box1,#cbox11,#cbox12,#text2{
         display: none;
         /*end display none*/
     }
@@ -360,9 +362,8 @@ h5{
 }
     #artoffres a{
         display: flex;
-
-    
-
+        font-family: "OpenSansSemiBold",sans-serif;
+        color: #336699;
     }
     #artoffres figure{
         width: 44%;
@@ -376,7 +377,47 @@ h5{
         margin: 5px;
     }
 
+    .navoffres ul{
+        display: flex;
+        margin: 2rem 0px;
+    }
+    .navoffres a {
+       
+        border: 1px solid #ccc;
+        height: 20px;
+        padding: .5em;
+        font-family: "OpenSansSemiBold",sans-serif;
+        background-color:#E6E6E6;
+        color: #000;
+    }
+    
+    .navoffres span a {
+        background-color: #fff;
+        color: #F56B2A;
+        border-bottom: none;
+        font-family: "OpenSansSemiBold",sans-serif;
+    }
+    .navoffres a:hover {
+        background-color: #fff;
+        text-decoration: underline;
+        color:#f56b2a;
+    }
 
+    #selectoffres{
+            padding: .5em;
+    width: 100%;
+    border-color: #4183D7;
+    font-family: "OpenSansSemiBold",sans-serif;
+    border-radius: 5px;
+    color: #336699;
+    
+}
+
+.sectionoffres2{
+    display: flex;
+    flex-direction: column;
+}
+   
 
     /*end page offres.html*/
 
@@ -489,6 +530,10 @@ h5{
     }
     #buttonblue{
         width: 150px;
+    }
+    .sidebarinv{
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     }
