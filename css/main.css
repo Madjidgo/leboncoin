@@ -349,6 +349,14 @@ h3{
 h5{
     text-align: center;
     padding: 1em;
+    background-color: #F56B2A;
+    color: #fff;
+}
+
+.sectionoffres{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F56B2A;
 }
     #artoffres a{
         display: flex;
