@@ -340,6 +340,35 @@ margin-top: 0;
 border: none;
 
     }
+h3{
+    color: #989898;
+    font-size: 16px;
+    padding: 1em;
+
+}
+h5{
+    text-align: center;
+    padding: 1em;
+}
+    #artoffres a{
+        display: flex;
+
+    
+
+    }
+    #artoffres figure{
+        width: 44%;
+        margin: 7px ;
+    }
+
+    .divoffres span{
+        color: #F56B2A;
+    }
+    .divoffres{
+        margin: 5px;
+    }
+
+
 
     /*end page offres.html*/
 
