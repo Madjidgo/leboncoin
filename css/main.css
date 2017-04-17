@@ -330,7 +330,16 @@
 
     /*start page offres.html*/
 
+    #buttonhead{
+        margin-left: 3em;
+width: 60px;
+color: orange;
+border-radius: 5px;
+background-color:#fff;
+margin-top: 0;
+border: none;
 
+    }
 
     /*end page offres.html*/
 
@@ -475,7 +484,7 @@
         header{
             background-color: #F56B2A;
         }
-        .aside1 a, .section1 figure,#select{
+        .aside1 a, .section1 figure,#select,#buttonhead{
             display: none;
         }
         header nav,.headerbutton{
