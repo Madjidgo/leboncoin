@@ -535,6 +535,19 @@ h5{
         display: flex;
         flex-direction: column-reverse;
     }
+    .hhh{
+        display: flex;
+
+    }
+    .hhh .sectionoffres2{
+        align-self: flex-end;
+    }
+    .hhh .sectionoffres{
+        align-self: stretch;
+    }
+    .hhh .sidebarinv{
+        align-self: flex-start;
+    }
 
     }
 
