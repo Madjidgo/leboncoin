@@ -108,7 +108,7 @@
 
     /*star page index.html*/
     /* display:none*/
-    header nav,.headerbutton,  .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure,#text1,.select1,#box1,#cbox11,#cbox12,#text2{
+    header nav,.headerbutton,  .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure,#text1,.select1,#box1,.cbox,#text2{
         display: none;
         /*end display none*/
     }
@@ -535,21 +535,35 @@ h5{
         display: flex;
         flex-direction: column-reverse;
     }
-    .hhh{
-        display: flex;
+   .sectionoffres {
+    position: absolute;
+    right: 10%;
+    width: 30%;
+    height: 80%;
+   
+}
+        .sectionoffres2{
+            width: 65%;
+        }
+
+        #artoffres a {
+    display: flex;
+    font-family: "OpenSansSemiBold",sans-serif;
+    color: #336699;
+    flex-direction: column;
+}
+#selectoffres {
+   
+    width: 60%;
+    
+
+}
+.container3 img{
+    height: 200px;
+    width: 200px;
 
     }
-    .hhh .sectionoffres2{
-        align-self: flex-end;
-    }
-    .hhh .sectionoffres{
-        align-self: stretch;
-    }
-    .hhh .sidebarinv{
-        align-self: flex-start;
-    }
-
-    }
+}
 
 /*media queries 980px*/
         /*start page annonce.html*/
@@ -564,11 +578,22 @@ h5{
     #annonces{
         width: 25%;
     }
-    /*.formp1{
-        display: flex;
-    }*/
+    
     #select{
         width: 100%;
+    }
+
+    /*page offres.html*/
+    .sidebarinv{
+        display: flex;
+        flex-direction: column-reverse;
+    }l
+    #text1,.select1,#box1,.cbox,#text2{
+        display: block;
+    }
+    .kkk{
+        display: flex;
+        justify-content: space-around;
     }
     }
 
@@ -590,7 +615,7 @@ h5{
         .sidebar, .white , .black, .partenaires, .partenaire2 p, #fighead{
             display: block;
         }
-        .container,footer,#pf, .container2{
+        .container,footer,#pf, .container2, .container3{
             width: 60%;
             margin: 1em auto;
         }
@@ -708,8 +733,23 @@ h5{
         color: #000;
         border-radius: 5px;
         }
+     /*   .sectionoffres{
+    position: absolute;
+    right: 21%;
+    width: 17%;
+    height: 70%;
+
+        }*/
+        .container3 img{
+            height: 200px;
+            width: 200px;
+        }
 
     }
+
+        /* end page offres.hml*/
+
+
 
 
 
