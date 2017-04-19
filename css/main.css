@@ -360,13 +360,13 @@ h5{
     flex-direction: column;
     border: 1px solid #F56B2A;
 }
-    #artoffres a{
+    .artoffres a{
         display: flex;
         font-family: "OpenSansSemiBold",sans-serif;
         color: #336699;
         border-top: 1px solid #CCCCCC;
     }
-    #artoffres figure{
+    .artoffres figure{
         width: 44%;
         margin: 7px ;
     }
@@ -548,7 +548,7 @@ h5{
             width: 65%;
         }
 
-        #artoffres a {
+        .artoffres a {
     display: flex;
     font-family: "OpenSansSemiBold",sans-serif;
     color: #336699;
@@ -776,9 +776,10 @@ h5{
 }
 #madbut {
     position: absolute;
-    right: 475px;
+    right: 459px;
     top: 138px;
     width: 217px;
+    padding: .7em;
 }
 .sectionoffres {
     position: absolute;
@@ -788,7 +789,7 @@ h5{
     margin-top: 143px;
 }
 
-#artoffres a {
+.artoffres a {
     display: flex;
     font-family: "OpenSansSemiBold",sans-serif;
     color: #336699;
