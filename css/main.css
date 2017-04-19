@@ -108,7 +108,7 @@
 
     /*star page index.html*/
     /* display:none*/
-    header nav,.headerbutton,  .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure,#text1,.select1,#box1,.cbox,#text2{
+    header nav,.headerbutton,  .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure,#text1,.select1,#box1,.cbox,#text2,.mad{
         display: none;
         /*end display none*/
     }
@@ -364,6 +364,7 @@ h5{
         display: flex;
         font-family: "OpenSansSemiBold",sans-serif;
         color: #336699;
+        border-top: 1px solid #CCCCCC;
     }
     #artoffres figure{
         width: 44%;
@@ -537,9 +538,10 @@ h5{
     }
    .sectionoffres {
     position: absolute;
-    right: 10%;
-    width: 30%;
+    right: 5%;
+    width: 22%;
     height: 80%;
+    margin-top: 143px;
    
 }
         .sectionoffres2{
@@ -587,7 +589,7 @@ h5{
     .sidebarinv{
         display: flex;
         flex-direction: column-reverse;
-    }l
+    }
     #text1,.select1,#box1,.cbox,#text2{
         display: block;
     }
@@ -595,6 +597,25 @@ h5{
         display: flex;
         justify-content: space-around;
     }
+    .mad {
+        display: block;
+    }
+    
+    #madbut,#madinput,#madinput2{
+        width: 22%;
+
+    }
+   #madbut {
+    position: absolute;
+    right: 49px;
+    top: 126px;
+    background-color: #4183d7;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+
     }
 
 
@@ -674,6 +695,8 @@ h5{
             background-color: #fff;
         }
 
+       
+
         /*start footer*/
         footer ul{
             width: 25%;
@@ -733,17 +756,46 @@ h5{
         color: #000;
         border-radius: 5px;
         }
-     /*   .sectionoffres{
+    #madbut {
     position: absolute;
-    right: 21%;
-    width: 17%;
-    height: 70%;
+    right: 160px;
+    top: 264px;
+   
+}
+.navselect{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
 
-        }*/
-        .container3 img{
-            height: 200px;
-            width: 200px;
-        }
+#selectoffres{    height: 41px;
+    align-self: center;
+}
+#selectoffres {
+    width: 22%;
+}
+#madbut {
+    position: absolute;
+    right: 475px;
+    top: 138px;
+    width: 217px;
+}
+.sectionoffres {
+    position: absolute;
+    right: 22%;
+   /* width: 0%;*/
+    height: 80%;
+    margin-top: 143px;
+}
+
+#artoffres a {
+    display: flex;
+    font-family: "OpenSansSemiBold",sans-serif;
+    color: #336699;
+    flex-direction: row;
+   
+    
+}
 
     }
 
