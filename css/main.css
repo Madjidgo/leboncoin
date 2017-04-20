@@ -281,15 +281,24 @@
        max-width: 315px;
     }
 
-        button{
+        #seconnecter{
          padding: .5em;
         border: none;
         width: 97%;
-        border-radius: 5px;
+       /* border-radius: 5px;*/
         margin-top: .5em;
         background-color: #F56b2a;
         color: #fff;
         }
+
+          .material-icons {
+            color:#fff;
+        }
+        #seconnecter:hover, .material-icons:hover{
+            background-color: #fff;
+            color: #F56B2A;
+        }
+
 
     .labelradio input, #cbox1, #cbox2{
         width: 0;
@@ -692,10 +701,10 @@ h5{
             display: flex;
             align-items: baseline;
         }
-        .headerbutton i{
-            border:none;
-            color: #F2F2F2;
-        }
+        /*.materialicons{
+           
+            color: #Fff;
+        }*/
         .headerbutton:hover{
             background-color: #fff;
             color: #Ff4500;
