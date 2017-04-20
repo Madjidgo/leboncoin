@@ -104,6 +104,11 @@
     li{
         list-style-type: none;
     }
+   /* #ImageMapsCom-image-maps-2017-04-19-160657 area:hover{
+        background-color: #F56B2A;
+        fill: #F56B2A;
+        cursor: pointer;
+    }*/
 
 
     /*star page index.html*/
@@ -278,11 +283,11 @@
 
         button{
          padding: .5em;
-        border: 1px solid #968f7e;
+        border: none;
         width: 97%;
         border-radius: 5px;
         margin-top: .5em;
-        background-color: #F9B493;
+        background-color: #F56b2a;
         color: #fff;
         }
 
@@ -688,11 +693,12 @@ h5{
             align-items: baseline;
         }
         .headerbutton i{
-            color:#fff;
             border:none;
+            color: #F2F2F2;
         }
         .headerbutton:hover{
             background-color: #fff;
+            color: #Ff4500;
         }
 
        
