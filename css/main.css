@@ -280,10 +280,13 @@
         background-repeat: no-repeat;
         background-position: right;
     }
-    input{
-        color: black;
+    #annonces{
+        background-image: url(../img/euro.jpg);
+        background-size: 12px 12px;
+        background-repeat: no-repeat;
+        background-position: right;
     }
-
+    
     label,figcaption {
      margin: 10px;
      display:block;
@@ -294,13 +297,17 @@
         padding: .5em;
         width: 89%;
        max-width: 315px;
+        background-color: transparent;
+        border: 1px solid;
+        line-height: 25px;
+        border-radius: 5px; 
+        border-color: #968F7E;
     }
 
         #seconnecter{
          padding: .5em;
         border: none;
         width: 97%;
-       /* border-radius: 5px;*/
         margin-top: .5em;
         background-color: #F56b2a;
         color: #fff;
@@ -376,11 +383,12 @@
     #buttonhead{
         margin-left: 3em;
 width: 60px;
-color: orange;
+color: #F56B2A;
 border-radius: 5px;
-background-color:#fff;
+background-color:transparent;
 margin-top: 0;
 border: none;
+transition: all,.1s;
 
     }
 h3{
@@ -548,7 +556,7 @@ h5{
         width: 39%;
         margin: 0;;
         color:#fff;
-        background-color::;
+        background-color:#F9B493;
         border-radius: 5px;
         border: none;
     }
@@ -617,10 +625,14 @@ h5{
     @media (min-width: 980px){
     input{
         width: 48%;
+        background-color: transparent;
+        border: 1px solid;
+        line-height: 25px;
+        border-radius: 5px; 
+        border-color: #968F7E;
     }
     textarea{
         width: 50%;
-    
     }
     #annonces{
         width: 25%;
