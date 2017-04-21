@@ -75,6 +75,7 @@
             <select name="select" id="select">
 
             <optgroup label ="emploi">
+            <option  value="Offres">Choisissez une catégorie</option>
             <option value="Offres">offres d'emploi</option>
             </optgroup>
             
@@ -90,11 +91,11 @@
 
             <div class="labelradio">
             <label for="particulier">Vous êtes un*</label>
-            <input type="radio" name="identity" id="particulier" value="particulier">Particulier
+            <input type="radio" name="identity" id="particulier" value="particulier" checked="checked">Particulier
             <input type="radio" name="identity" id="professionnel" value="professionnel">Professionnel
 
             <label for="radio">Type d'annonce*</label>
-            <input type="radio" name="offres" value="particulier">particulier
+            <input type="radio" name="offres" value="particulier" checked="checked">particulier
             <input type="radio" name="offres" value="demandes">Demandes 
             </div>
             
@@ -137,7 +138,7 @@
                 
                 <input type="text" name="villes" id="villes" placeholder="voie ou numéro + voie">
 
-                <button type="button" id="buttonorange" > valider</button>
+                <button type="button" id="buttonorange" > valider mon adresse</button>
                 </div>
             
                 <div class="formp">

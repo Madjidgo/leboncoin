@@ -109,6 +109,9 @@
         fill: #F56B2A;
         cursor: pointer;
     }*/
+    .figurefrance{
+        width: 90%;
+    }
 
 
     /*star page index.html*/
@@ -266,7 +269,19 @@
         margin:  auto;
         padding: .5em;
         border-radius: 5px;
-        background-color: white;
+        background-color:transparent;
+        line-height: 38px;
+        -moz-appearance:none;
+        cursor: pointer;
+    }
+    #select{
+        background-image: url(../img/fleche.png);
+        background-size: 30px 30px;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    input{
+        color: black;
     }
 
     label,figcaption {
@@ -334,6 +349,18 @@
     #buttonblue{
         background-color: #4183D7;
         margin-bottom: 1em;
+        padding: .8em;
+        border-radius: 5px;
+        border:none;
+        transition: all,.3s;
+        overflow: hidden;
+        color: #fff;
+    }
+
+    #buttonblue:hover{
+        background-color: #69c;
+    }
+
     }
     .formp2{
         font-weight: normal;
@@ -518,8 +545,12 @@ h5{
         width: 55%;
     }
     #buttonorange{
-        width: 32%;
-        margin: 0;
+        width: 39%;
+        margin: 0;;
+        color:#fff;
+        background-color::;
+        border-radius: 5px;
+        border: none;
     }
     #ville{
         width: 90%;
@@ -544,7 +575,7 @@ h5{
         margin-top: 2.1em;
     }
     #buttonblue{
-        width: 150px;
+        width: 190px;
     }
     .sidebarinv{
         display: flex;
@@ -596,7 +627,7 @@ h5{
     }
     
     #select{
-        width: 100%;
+        width: 50%;
     }
 
     /*page offres.html*/
@@ -639,7 +670,7 @@ h5{
         header{
             background-color: #F56B2A;
         }
-        .aside1 a, .section1 figure,#select,#buttonhead{
+        .aside1 a, .section1 figure,#buttonhead{
             display: none;
         }
         header nav,.headerbutton{
