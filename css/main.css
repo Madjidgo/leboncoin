@@ -456,12 +456,22 @@ h5{
     #selectoffres{
             padding: .5em;
     width: 100%;
-    border-color: #4183D7;
     font-family: "OpenSansSemiBold",sans-serif;
     border-radius: 5px;
     color: #336699;
-    
+    border:none;  
 }
+    #selectoffres{
+        cursor: pointer;
+        -moz-appearance:none;
+        background-image: url(../img/fleche.png);
+        background-size: 30px 30px;
+        background-position: right;
+        background-repeat: no-repeat;
+        border: 1px solid #4183d7;
+    }
+
+
 
 .sectionoffres2{
     display: flex;
@@ -609,7 +619,7 @@ h5{
 }
 #selectoffres {
    
-    width: 60%;
+    width: 73%;
     
 
 }
@@ -633,6 +643,9 @@ h5{
     }
     textarea{
         width: 50%;
+    }
+    .ccc{
+        display: flex;
     }
     #annonces{
         width: 25%;
