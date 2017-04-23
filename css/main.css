@@ -1,4 +1,4 @@
-    /*
+        /*
      * What follows is the result of much research on cross-browser styling.
      * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
      * Kroc Camen, and the H5BP dev community and team.
@@ -104,22 +104,19 @@
     li{
         list-style-type: none;
     }
-  
-
-    #ImageMapsComimagemaps20170419160657 pat:hover:not{
-        fill:orange;
-    } 
+   /* #ImageMapsCom-image-maps-2017-04-19-160657 area:hover{
+        background-color: #F56B2A;
+        fill: #F56B2A;
+        cursor: pointer;
+    }*/
     .figurefrance{
         width: 90%;
     }
 
 
-
-
-
     /*star page index.html*/
     /* display:none*/
-    header nav, .headerbutton,  .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure,#text1,.select1,#box1,.cbox,#text2,.mad{
+    header nav,.headerbutton,  .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure,#text1,.select1,#box1,.cbox,#text2,.mad{
         display: none;
         /*end display none*/
     }
@@ -454,26 +451,16 @@ h5{
         background-color: #fff;
         text-decoration: underline;
         color:#f56b2a;
-        transition: all .3s;
     }
 
     #selectoffres{
-    padding: .5em;
+            padding: .5em;
     width: 100%;
     border-color: #4183D7;
     font-family: "OpenSansSemiBold",sans-serif;
     border-radius: 5px;
     color: #336699;
-    -moz-appearance:none;
-    }
-
-#selectoffres {
-    background-image: url(../img/fleche.png);
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    color: #4183d7;
-    background-position: right;
-    border: 1px solid #4183D7;
+    
 }
 
 .sectionoffres2{
@@ -620,12 +607,12 @@ h5{
     color: #336699;
     flex-direction: column;
 }
-/*#selectoffres {
+#selectoffres {
    
     width: 60%;
     
 
-}*/
+}
 .container3 img{
     height: 200px;
     width: 200px;
@@ -637,7 +624,7 @@ h5{
         /*start page annonce.html*/
     @media (min-width: 980px){
     input{
-        width: 48.5%;
+        width: 48%;
         background-color: transparent;
         border: 1px solid;
         line-height: 25px;
@@ -650,28 +637,10 @@ h5{
     #annonces{
         width: 25%;
     }
-    .ccc{
-        display: flex;
-    }
-    .ccc1{
-        font-size: 12px;
-        width: 230px;
-        height: 20px;
-    }
-    .ccc2{
-        display: flex;
-        width: 47%;
-        margin-top: 1px auto;
-    }
-    label {
-    margin: 10px;
-    display: block;
-    font-size: 12px;
-}
     
-    #select{
+   /* #select{
         width: 100%;
-    }
+    }*/
 
     /*page offres.html*/
     .sidebarinv{
@@ -693,30 +662,27 @@ h5{
         width: 22%;
 
     }
-    #madinput2{
-        width: 50%;
-    }
    #madbut {
     position: absolute;
     right: 49px;
-    top: 119px;
+    top: 126px;
     background-color: #4183d7;
     color: #fff;
     border-radius: 5px;
 
 }
-.navselect{
-    display: flex;
-    align-items: baseline;
-}
- }
+
+
+    }
+
+
 
     /* start mediaqueries 1024px*/
     @media (min-width: 1024px) {
         header{
             background-color: #F56B2A;
         }
-        .aside1 a, .section1 figure,#buttonhead,.sel{
+        .aside1 a, .section1 figure,#buttonhead,#select{
             display: none;
         }
         header nav,.headerbutton{
@@ -726,20 +692,6 @@ h5{
         }
         .sidebar, .white , .black, .partenaires, .partenaire2 p, #fighead{
             display: block;
-        }
-        #select{
-            width: 50%;
-        }
-        #selectoffres {
-        padding: .5em;
-        width: 25%;
-        border-color: #4183D7;
-        font-family: "OpenSansSemiBold",sans-serif;
-        border-radius: 5px;
-        color: #336699;
-        -moz-appearance: none;
-        }
-
         }
         .container,footer,#pf, .container2, .container3{
             width: 60%;
@@ -792,11 +744,16 @@ h5{
             display: flex;
             align-items: baseline;
         }
-       
+        /*.materialicons{
+           
+            color: #Fff;
+        }*/
         .headerbutton:hover{
             background-color: #fff;
             color: #Ff4500;
         }
+
+       
 
         /*start footer*/
         footer ul{
@@ -857,33 +814,44 @@ h5{
         color: #000;
         border-radius: 5px;
         }
-        .navselect{
-        display: flex;
-        width: 60%;
-        justify-content: space-between;
-        }
+    #madbut {
+    position: absolute;
+    right: 160px;
+    top: 264px;
+   
+}
+.navselect{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
 
-        #madbut {
-        position: absolute;
-        right: 460px;
-        top: 138px;
-        width: 217px;
+#selectoffres{    height: 41px;
+    align-self: center;
+}
+#selectoffres {
+    width: 22%;
+}
+#madbut {
+    position: absolute;
+    right: 459px;
+    top: 138px;
+    width: 217px;
+    padding: .7em;
+}
+.sectionoffres {
+    position: absolute;
+    right: 22%;
+   /* width: 0%;*/
+    height: 80%;
+    margin-top: 143px;
+}
 
-        }
-        .sectionoffres {
-        position: absolute;
-        right: 22%;
-        height: 80%;
-        margin-top: 143px;
-        display: flex;
-        justify-content: all;
-        }
-
-        .artoffres a {
-        display: flex;
-        font-family: "OpenSansSemiBold",sans-serif;
-        color: #336699;
-        flex-direction: row;
+.artoffres a {
+    display: flex;
+    font-family: "OpenSansSemiBold",sans-serif;
+    color: #336699;
+    flex-direction: row;
    
     
 }
@@ -1087,4 +1055,4 @@ h5{
         h3 {
             page-break-after: avoid;
         }
-    }
+}
