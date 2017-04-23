@@ -119,7 +119,7 @@
 
     /*star page index.html*/
     /* display:none*/
-    header nav,.headerbutton,  .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure,#text1,.select1,#box1,.cbox,#text2,.mad{
+    header nav, .headerbutton,  .sidebar, .white , .black, .partenaires, .partenaire2 p, .section1 figure,#text1,.select1,#box1,.cbox,#text2,.mad{
         display: none;
         /*end display none*/
     }
@@ -709,11 +709,7 @@ h5{
     display: flex;
     align-items: baseline;
 }
-
-
-    }
-
-
+ }
 
     /* start mediaqueries 1024px*/
     @media (min-width: 1024px) {
@@ -734,15 +730,15 @@ h5{
         #select{
             width: 50%;
         }
-            #selectoffres {
-    padding: .5em;
-    width: 25%;
-    border-color: #4183D7;
-    font-family: "OpenSansSemiBold",sans-serif;
-    border-radius: 5px;
-    color: #336699;
-    -moz-appearance: none;
-}
+        #selectoffres {
+        padding: .5em;
+        width: 25%;
+        border-color: #4183D7;
+        font-family: "OpenSansSemiBold",sans-serif;
+        border-radius: 5px;
+        color: #336699;
+        -moz-appearance: none;
+        }
 
         }
         .container,footer,#pf, .container2, .container3{
@@ -796,16 +792,11 @@ h5{
             display: flex;
             align-items: baseline;
         }
-        /*.materialicons{
-           
-            color: #Fff;
-        }*/
+       
         .headerbutton:hover{
             background-color: #fff;
             color: #Ff4500;
         }
-
-       
 
         /*start footer*/
         footer ul{
@@ -866,39 +857,33 @@ h5{
         color: #000;
         border-radius: 5px;
         }
-    #madbut {
-    position: absolute;
-    right: 160px;
-    top: 264px;
-   
-}
-.navselect{
-    display: flex;
-    width: 60%;
-    justify-content: space-between;
-}
+        .navselect{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        }
 
-#madbut {
-    position: absolute;
-    right: 460px;
-    top: 138px;
-    width: 217px;
+        #madbut {
+        position: absolute;
+        right: 460px;
+        top: 138px;
+        width: 217px;
 
-}
-.sectionoffres {
-    position: absolute;
-    right: 22%;
-    height: 80%;
-    margin-top: 143px;
-    display: flex;
-    justify-content: all;
-}
+        }
+        .sectionoffres {
+        position: absolute;
+        right: 22%;
+        height: 80%;
+        margin-top: 143px;
+        display: flex;
+        justify-content: all;
+        }
 
-.artoffres a {
-    display: flex;
-    font-family: "OpenSansSemiBold",sans-serif;
-    color: #336699;
-    flex-direction: row;
+        .artoffres a {
+        display: flex;
+        font-family: "OpenSansSemiBold",sans-serif;
+        color: #336699;
+        flex-direction: row;
    
     
 }
