@@ -104,14 +104,17 @@
     li{
         list-style-type: none;
     }
-   /* #ImageMapsCom-image-maps-2017-04-19-160657 area:hover{
-        background-color: #F56B2A;
-        fill: #F56B2A;
-        cursor: pointer;
-    }*/
+  
+
+    #ImageMapsComimagemaps20170419160657 pat:hover:not{
+        fill:orange;
+    } 
     .figurefrance{
         width: 90%;
     }
+
+
+
 
 
     /*star page index.html*/
@@ -451,16 +454,26 @@ h5{
         background-color: #fff;
         text-decoration: underline;
         color:#f56b2a;
+        transition: all .3s;
     }
 
     #selectoffres{
-            padding: .5em;
+    padding: .5em;
     width: 100%;
     border-color: #4183D7;
     font-family: "OpenSansSemiBold",sans-serif;
     border-radius: 5px;
     color: #336699;
-    
+    -moz-appearance:none;
+    }
+
+#selectoffres {
+    background-image: url(../img/fleche.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    color: #4183d7;
+    background-position: right;
+    border: 1px solid #4183D7;
 }
 
 .sectionoffres2{
@@ -607,12 +620,12 @@ h5{
     color: #336699;
     flex-direction: column;
 }
-#selectoffres {
+/*#selectoffres {
    
     width: 60%;
     
 
-}
+}*/
 .container3 img{
     height: 200px;
     width: 200px;
@@ -624,7 +637,7 @@ h5{
         /*start page annonce.html*/
     @media (min-width: 980px){
     input{
-        width: 48%;
+        width: 48.5%;
         background-color: transparent;
         border: 1px solid;
         line-height: 25px;
@@ -637,9 +650,27 @@ h5{
     #annonces{
         width: 25%;
     }
+    .ccc{
+        display: flex;
+    }
+    .ccc1{
+        font-size: 12px;
+        width: 230px;
+        height: 20px;
+    }
+    .ccc2{
+        display: flex;
+        width: 47%;
+        margin-top: 1px auto;
+    }
+    label {
+    margin: 10px;
+    display: block;
+    font-size: 12px;
+}
     
     #select{
-        width: 50%;
+        width: 100%;
     }
 
     /*page offres.html*/
@@ -662,14 +693,21 @@ h5{
         width: 22%;
 
     }
+    #madinput2{
+        width: 50%;
+    }
    #madbut {
     position: absolute;
     right: 49px;
-    top: 126px;
+    top: 119px;
     background-color: #4183d7;
     color: #fff;
     border-radius: 5px;
 
+}
+.navselect{
+    display: flex;
+    align-items: baseline;
 }
 
 
@@ -682,7 +720,7 @@ h5{
         header{
             background-color: #F56B2A;
         }
-        .aside1 a, .section1 figure,#buttonhead{
+        .aside1 a, .section1 figure,#buttonhead,.sel{
             display: none;
         }
         header nav,.headerbutton{
@@ -692,6 +730,20 @@ h5{
         }
         .sidebar, .white , .black, .partenaires, .partenaire2 p, #fighead{
             display: block;
+        }
+        #select{
+            width: 50%;
+        }
+            #selectoffres {
+    padding: .5em;
+    width: 25%;
+    border-color: #4183D7;
+    font-family: "OpenSansSemiBold",sans-serif;
+    border-radius: 5px;
+    color: #336699;
+    -moz-appearance: none;
+}
+
         }
         .container,footer,#pf, .container2, .container3{
             width: 60%;
@@ -826,25 +878,20 @@ h5{
     justify-content: space-between;
 }
 
-#selectoffres{    height: 41px;
-    align-self: center;
-}
-#selectoffres {
-    width: 22%;
-}
 #madbut {
     position: absolute;
-    right: 459px;
+    right: 460px;
     top: 138px;
     width: 217px;
-    padding: .7em;
+
 }
 .sectionoffres {
     position: absolute;
     right: 22%;
-   /* width: 0%;*/
     height: 80%;
     margin-top: 143px;
+    display: flex;
+    justify-content: all;
 }
 
 .artoffres a {
