@@ -148,7 +148,7 @@
 
     .aside1 img{
         height: 35px;
-        flex
+         /*display:flex;*/
     }
     .aside1 a {
         border-radius: 5px;
@@ -368,7 +368,7 @@
         background-color: #69c;
     }
 
-    }
+ 
     .formp2{
         font-weight: normal;
         font-family: "OpenSansBold",sans-serif;
@@ -633,6 +633,7 @@ h5{
 /*media queries 980px*/
         /*start page annonce.html*/
     @media (min-width: 980px){
+    
     input{
         width: 48%;
         background-color: transparent;
@@ -641,12 +642,15 @@ h5{
         border-radius: 5px; 
         border-color: #968F7E;
     }
+
     textarea{
         width: 50%;
     }
+
     .ccc{
         display: flex;
     }
+
     #annonces{
         width: 25%;
     }
@@ -691,7 +695,8 @@ h5{
 
 
     /* start mediaqueries 1024px*/
-    @media (min-width: 1024px) {
+    @media (min-width: 1024px){
+
         header{
             background-color: #F56B2A;
         }
@@ -824,25 +829,28 @@ h5{
         color: #000;
         border-radius: 5px;
         }
-    #madbut {
+
+ 
+
+ #madbut {
     position: absolute;
-  /*  right: 160px;*/
-    top: 264px;
-    position: absolute;
-    right: 530px;
-   /* top: 138px;
-    width: 217px;*/
-      
+    right: 519px;
+    top: 138px;
+    width: 167px;
+            
+    background-color: #4183D7;
 }
+
 .navselect{
     display: flex;
     width: 60%;
     justify-content: space-between;
 }
 
-#selectoffres{    height: 41px;
+#selectoffres{    
+    height: 41px;
     align-self: center;
-    width: 22%;
+    width: 25%;
 }
 
 
@@ -851,27 +859,27 @@ h5{
     font-family: "OpenSansSemiBold",sans-serif;
     color: #336699;
     flex-direction: row;
-   
-    
+      
 }
 .ccc2{
     width: 60%;
 }
-input{
+/*input{
     width: 42%;
-}
+}*/
 .divoffres {
     margin: 13px;
 }
 .sectionoffres {
     position: absolute;
     right: 29%;
-    width: 0%;
-    height: 55%;
+    width: 12%;
+    height: 700px;
     margin-top: 159px;
 }
+}
 
-    }
+
 
         /* end page offres.hml*/
 
