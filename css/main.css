@@ -757,10 +757,7 @@ h5{
             display: flex;
             align-items: baseline;
         }
-        /*.materialicons{
-           
-            color: #Fff;
-        }*/
+       
         .headerbutton:hover{
             background-color: #fff;
             color: #Ff4500;
@@ -829,9 +826,13 @@ h5{
         }
     #madbut {
     position: absolute;
-    right: 160px;
+  /*  right: 160px;*/
     top: 264px;
-   
+    position: absolute;
+    right: 530px;
+   /* top: 138px;
+    width: 217px;*/
+      
 }
 .navselect{
     display: flex;
@@ -843,20 +844,7 @@ h5{
     align-self: center;
     width: 22%;
 }
-#madbut {
-    position: absolute;
-    right: 530px;
-    top: 138px;
-    width: 217px;
-   /* padding: .7em;*/
-}
-.sectionoffres {
-    position: absolute;
-    right: 22%;
-   /* width: 0%;*/
-    height: 80%;
-    margin-top: 143px;
-}
+
 
 .artoffres a {
     display: flex;
@@ -872,25 +860,20 @@ h5{
 input{
     width: 42%;
 }
+.divoffres {
+    margin: 13px;
+}
+.sectionoffres {
+    position: absolute;
+    right: 29%;
+    width: 0%;
+    height: 55%;
+    margin-top: 159px;
+}
 
     }
 
         /* end page offres.hml*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     /* ==========================================================================
        Helper classes
