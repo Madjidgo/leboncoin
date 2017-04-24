@@ -841,13 +841,11 @@ h5{
 
 #selectoffres{    height: 41px;
     align-self: center;
-}
-#selectoffres {
     width: 22%;
 }
 #madbut {
     position: absolute;
-    right: 528px;
+    right: 530px;
     top: 138px;
     width: 217px;
    /* padding: .7em;*/
