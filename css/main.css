@@ -877,6 +877,12 @@ h5{
     height: 700px;
     margin-top: 159px;
 }
+figcaption {
+     margin: 10px;
+     display:block;
+     font-size: 14px;
+     width: 100%;
+     }
 }
 
 
